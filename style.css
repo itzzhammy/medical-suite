@@ -4181,3 +4181,55 @@ body {
 .medical-billing-section {
   padding: 30px 0;
 }
+
+.heading-margin {
+  margin-bottom: 10px;
+}
+.icon-margin {
+  margin-right: 5px;
+}
+.subscribe-extended {
+  margin-top: 20px;
+}
+.input-extended {
+  width: 53%;
+  height: 45px;
+}
+.btn-extended {
+  width: 30%;
+}
+.section-title-extended {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.services-section {
+  padding: 100px;
+}
+
+.single-service-box {
+  padding: 15px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.27);
+}
+
+.cpt-codes {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.btn-secondary {
+  color: #fff !important;
+}
+
+.mental-billing-section {
+  padding: 30px;
+}
+
+.single-service-extended i {
+  font-size: 45px;
+  color: #1a76d1;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin-left: 40%;
+}
