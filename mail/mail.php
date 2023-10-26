@@ -15,7 +15,10 @@ Message: ".$message."
 
 ";
 
-mail ("humza.murtaza@gmail.com" , "New Message", $email_message);
+$headers = "MIME-Version: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+mail ("humza.murtaza@gmail.com" , "New Message", $email_message, $headers );
 header("location: ../mail-success.html");
 ?>
 
