@@ -5,7 +5,8 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/mapbox/streets-v11', // Base map style
     center: [-76.7802528, 39.4195499], // [longitude, latitude]
     zoom: 15,
-    scrollZoom: false
+    scrollZoom: false,
+    dragPan: false
 });
 
 // Adding a marker
