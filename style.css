@@ -4365,3 +4365,33 @@ body {
 .single-service-section-box h4 {
   margin: 0; /* Remove default margin for h4 */
 }
+
+.section-appointment {
+  background-color: #fff;
+  height: 260px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-appointment {
+    height: 390px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .section-appointment {
+    height: 360px;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .section-appointment {
+    height: 390px;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .section-appointment {
+    height: 260px;
+  }
+}
