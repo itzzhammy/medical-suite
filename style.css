@@ -4335,10 +4335,34 @@ body {
   position: relative !important;
   font-size: 50px;
   color: #1b76d0;
+
 }
+
 .border-services-box h6 {
   margin-top: 10px;
 }
+
+.border-services-box-gray {
+  background: #ececec;
+  position: relative;
+  margin: 30px 0;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  height: 300px;
+  text-align: center;
+}
+
+.border-services-box-gray i{
+  position: relative !important;
+  font-size: 50px;
+  color: #1b76d0;
+}
+
+.border-services-box-gray h6 {
+  margin-top: 10px;
+}
+
 .button-extended {
   text-align: center;
 }
@@ -4384,13 +4408,13 @@ body {
   }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .section-appointment {
     height: 390px;
   }
 }
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 992px) {
   .section-appointment {
     height: 260px;
   }
