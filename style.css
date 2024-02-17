@@ -4335,7 +4335,6 @@ body {
   position: relative !important;
   font-size: 50px;
   color: #1b76d0;
-
 }
 
 .border-services-box h6 {
@@ -4353,7 +4352,7 @@ body {
   text-align: center;
 }
 
-.border-services-box-gray i{
+.border-services-box-gray i {
   position: relative !important;
   font-size: 50px;
   color: #1b76d0;
@@ -4394,6 +4393,9 @@ body {
   background-color: #fff;
   height: 260px;
   padding: 10px;
+}
+.list-style {
+  list-style: disc;
 }
 
 @media only screen and (max-width: 600px) {
